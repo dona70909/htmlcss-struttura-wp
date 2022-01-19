@@ -5,24 +5,28 @@
     padding: 0;
 }
 
+/* class clearfix per utilizzare float */
 .clearfix{
     content: "";
     display: table;
     clear: both;
 }
 
+/* dimensioni di ogni sezione header|top-main|bottom-main|footer */
 .size-box{
     width: 80%;
     margin:0 auto;
     margin-bottom:20px ;
 }
 
+/* header proprietà specifiche */
 .container-header{
     height: 100px; 
     background-color: rgb(219, 48, 235);
     margin-top: 10px;
 }
 
+/* main proprietà specifiche */
 .container-main{
    height:840px;
    height: 50%;
@@ -39,27 +43,34 @@
    background-color: blue;
 }
 
+/* footer proprietà specifiche */
 .container-footer{
    height: 50px;
    background-color: purple;
 }
 
-.blue-box{
+/*  --- sections all'interno del bottom main --- */
+
+/* proprietà delle boxes centrali */
+.middle-box{
     height: 500px ;
     background-color: aqua;
     margin-bottom: 20px;
     float: left;
 }
 
+/* boxes laterali  */
 .small-clm{
     width: 23%;
 }
 
+/* box centrale */
 .big-clm{
     width: 50%;
     margin: 0 10px 0px 10px;
 }
 
+/* proprietà "header" del bottom main */
 .header-bottom-main{
     height: 50px;
     width:100%;
