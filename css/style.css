@@ -5,14 +5,35 @@
     padding: 0;
 }
 
-.container-header{
+.size-box{
+    width: 80%;
+    margin:0 auto;
+    margin-bottom:20px ;
+}
 
+.container-header{
+    height: 100px;
+    background-color: rgb(219, 48, 235);
+    margin-top: 10px;
 }
 
 .container-main{
-
+    height:840px;
+    
 }
 
+.main-top{
+    height: 300px;
+    background-color: rgb(235, 213, 17);
+}
+
+.main-bottom{
+    height:500px;
+    background-color: blue;
+ 
+} 
+
 .container-footer{
-    
+    height: 50px;
+    background-color: purple;
 }
