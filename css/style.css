@@ -61,12 +61,12 @@
 
 /* boxes laterali  */
 .small-clm{
-    width: 23%;
+    width: 25%;
 }
 
 /* box centrale */
 .big-clm{
-    width: 50%;
+    width: calc(50% - 20px);
     margin: 0 10px 0px 10px;
 }
 
