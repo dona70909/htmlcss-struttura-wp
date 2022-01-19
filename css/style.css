@@ -6,7 +6,7 @@
 }
 
 /* class clearfix per utilizzare float */
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -53,9 +53,9 @@
 
 /* proprietà delle boxes centrali */
 .column{
-    height: 500px ;
+    height: 400px;
     background-color: rgba(171,207,231,255);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     float: left;
 }
 
@@ -67,7 +67,7 @@
 /* box centrale */
 .big-clm{
     width: calc(50% - 20px);
-    margin: 0 10px 0px 10px;
+    margin: 0px 10px 10px 10px;
 }
 
 /* proprietà "header" del bottom main */
