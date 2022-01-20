@@ -16,7 +16,6 @@
 .size-box{
     width: 80%;
     margin:0 auto;
-    margin-bottom:20px ;
 }
 
 /* header proprietà specifiche */
@@ -24,29 +23,26 @@
     height: 100px; 
     background-color: rgba(229,121,230,255);
     margin-top: 10px;
-}
-
-/* main proprietà specifiche */
-.container-main{
-   height:840px;
-   height: 50%;
-    
+    margin-bottom: 20px;
 }
 
 .main-top{
    height: 300px;
    background-color: rgba(225,214,122,255);
+   margin-bottom: 20px;
 }
 
 .main-bottom{
-   height:500px;
    background-color: rgba(9,132,243,255);
+   width: 80%;
+   margin: 0 auto 10px;
 }
 
 /* footer proprietà specifiche */
 .container-footer{
    height: 50px;
    background-color: rgba(136,1,254,255);
+   margin-bottom: 20px ;
 }
 
 /*  --- sections all'interno del bottom main --- */
@@ -55,7 +51,7 @@
 .column{
     height: 400px;
     background-color: rgba(171,207,231,255);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     float: left;
 }
 
@@ -67,11 +63,11 @@
 /* box centrale */
 .big-clm{
     width: calc(50% - 20px);
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 15px 10px;
 }
 
 /* proprietà "header" del bottom main */
-.header-bottom-main{
+.header-main-bottom{
     height: 60px;
     width:100%;
     float: left;
